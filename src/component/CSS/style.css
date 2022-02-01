@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
+    
+}
+
+body{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/860/775/772/miui-8-weather-background-minimal-rainy-wallpaper-thumb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.boxIn{
+    border: 2px  rebeccapurple;
+    height: 48vh;
+    width: 22%;
+    background-image: linear-gradient( rgb(69, 214, 224), rgb(60,60,160));
+    box-shadow: 0px 0px 40px rgb(185, 175, 175);
+    opacity: 0.7;
+}
+
+.inputField{
+    width: 50%;
+    height: 4vh;
+    margin-top: 2%;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 130%;
+}
+
+.location-icon{
+    font-size: 5vh;
+    margin: 8vh 25vh 0vh 0vh;
+}
+
+.title{
+    margin: -5vh 1vh 3vh 0vh;
+    font-size: 320%;
+}
+
+.temp{
+    font-size: 250%;
+    margin: 3vh 1vh 1vh 0vh;
+}
+
+#in{
+    text-align: center;
+}
+
+.range{
+    font-size: 2vh;
+    margin-top: 2.8vh;
+}
